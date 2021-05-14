@@ -4,11 +4,10 @@
 #include <unistd.h>
 #include <sys/types.h>
 #include <termios.h>
-#include <fcntl.h>
 #include <errno.h>
 #include <sys/stat.h>
 #include <sys/signal.h>
-#include <sys/ioctl.h>
+#include <sys/fcntl.h>
 #include <sys/poll.h>
 #include <pthread.h>
 #include <stdbool.h>
